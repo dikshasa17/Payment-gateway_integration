@@ -1,14 +1,11 @@
 @media only screen and (max-width: 1px) and (max-width:700px) {
   .nav-list {
     flex-direction: column;
-    padding: 1px 2px;
   }
   .navbar {
-    flex-direction: column;
-    transition: ease-out;
-    height: auto;
-    background:whitesmoke;
-    padding: 1px 2px;
+     flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 501px;
   }
   .image{
   background-position:center;

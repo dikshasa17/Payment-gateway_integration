@@ -29,7 +29,7 @@ html {
   min-height: 100vw;
   width:100vw;
   background-repeat: no-repeat;
-  background-position:center center;
+  background-position: center;
   background-blend-mode: darken;
 }
 
