@@ -26,10 +26,6 @@ html {
 .background {
   background: /* rgba(4, 12, 58, 0.815); */url("../img/precious.jpg");
   background-size: cover;
-  min-height: 100vw;
-  width:100vw;
-  background-repeat: no-repeat;
-  background-position: center;
   background-blend-mode: darken;
 }
 
