@@ -12,15 +12,11 @@
     text-align: left;
   }
 
-  .img{
-  display:inline-block;
-  width:100%;
-  font-size:0;
-  vertical-align: middle;
-  background-size: 100%;
-  background-position: 50% 50%;
-}
-
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  
   .rightNav {
     text-align: center;
   }
