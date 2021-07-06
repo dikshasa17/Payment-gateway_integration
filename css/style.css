@@ -4,29 +4,40 @@ html {
 }
 .navbar-nav .nav-link {
   color: rgba(0,0,0,1) !important;
-  font-size: 0.62em;
-  font-family: "Segoe UI" ; 
+  font-size: 22;
   
 }
+
 .navbar{
- /* background-color:rgba(82, 141, 196, 0.589) ;*/
+  background-color:rgba(179, 179, 174, 0.288) ;
   display: hidden;
-    height: 70px;  
-  font-family:"Segoe UI";
-  
+}
+
+.nav-link dropdown-toggle{
+  margin-right: 2px;
 }
 
 .navbar-nav .nav-link:hover {
-  color: rgba(241, 241, 241, 0.822) !important;
+  color: rgba(255, 255, 255, 0.747) !important;
   background-color: #141414 
-   
- 
 }
-
+ 
+#img {
+  display:inline-block;
+  width:100%;
+  font-size:0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  
+}
 .background {
-  background: /* rgba(4, 12, 58, 0.815); */url("../img/precious.jpg");
-  background-size: cover;
+  background-image: /* rgba(4, 12, 58, 0.815); */url("../img/precious.jpg");
+  background-size: 100%;
   background-blend-mode: darken;
+  
+
 }
 
 .box-main {
@@ -111,7 +122,7 @@ html {
 }
 
 .paras {
-  padding: 0 40px;
+  padding: 0 ;
 }
 
 .sectionTag {

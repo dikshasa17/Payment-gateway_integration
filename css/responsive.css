@@ -1,17 +1,24 @@
-@media only screen and (max-width: 1px) and (max-width:700px) {
-  .nav-list {
-    flex-direction: column;
-    padding: 1px 2px;
+@media only screen and (max-width:700px) {
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  .navbar {
-    flex-direction: column;
-    transition: ease-out;
-    height: auto;
-    background:whitesmoke;
-    padding: 1px 2px;
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
   .img{
-  background-position:center;
+  display:inline-block;
+  width:100%;
+  font-size:0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
   .rightNav {
@@ -43,7 +50,7 @@
     font-family: "Playfair Display", serif;
   }
   .buttons {
-    text-align: center;
+    text-align: right;
    
   }
   .paras {
